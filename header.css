@@ -146,7 +146,7 @@ a:hover {
   border-radius: 8px;
 }
 .section2-header div:hover {
-  background-color: rgba(129, 123, 123, 0.2274509804);
+  background-color: rgba(78, 71, 71, 0.815);
 }
 .section2-header div svg {
   filter: invert(1);
@@ -169,5 +169,5 @@ a:hover {
   background-color: #1d1d1d;
 }
 .section2-header button:nth-of-type(2):hover {
-  background-color: #221d1d;
+  background-color: #f34b4b;
 }/*# sourceMappingURL=header.css.map */
