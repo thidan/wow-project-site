@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word of Warcraft</title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.1/dist/locomotive-scroll.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-    <div data-scroll-container data-aos="fade-down">
+    <!--Header-->
+    <div data-scroll-container>
         <div class="header-wrapper">
-            <header class="header-container">
+            <header class="header-container" data-aos="fade-down">
             <div class="logo-blizzard-container">
-                <img src="./imagens/blizzard-logo.png">
+                <img src="./imagens/blizzard-logo.png" draggable="false">
                 <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 9l6 6 6-6" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
                 </svg>
@@ -23,7 +25,7 @@
                 </div>
             </div>
         <section class="section-header">
-            <img src="./imagens/wow-icon.png">
+            <img src="./imagens/wow-icon.png" draggable="false">
             <div class="menu-item">Informações do jogo
                 <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 9l6 6 6-6" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
@@ -68,7 +70,27 @@
             <button>Assine já</button>
         </section>
             </header>
-        </div>
+            <!--Main content-->
+                <main data-scroll-section>
+                    <section class="section-main">
+                        <div class="wow-logo-container">
+                                <img src="imagens/wow-logo.png" data-scroll data-scroll-speed="7" draggable="false">
+                        </div>
+                        <div class="text-container">
+                            <h1 data-scroll data-scroll-speed="6" data-scroll-direction="horizontal" >LEGADO DE ARTHOR, JÁ DISPONÍVEL</h1>
+                            <div><p data-scroll data-scroll-speed="-6" data-scroll-direction="horizontal">Viva ainda mais aventuras no Legado de Arathor. Você enfrentará desafios ainda maiores nas Imersões Sobrecarregadas, explorará a Trilha das Lendas com o Andarilho das Lendas Cho e contará com uma ajudinha do Assistente de Destaque e do Assistente de Rotação... e muito mais.</p></div>
+                        </div>
+                        <button class="main-button">Assine já</button>
+                        <div class="video-container">
+                            <video autoplay muted loop playsinline id="videoWow">
+                                <source src="videos/wow-video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </section>
+                    
+                </main>
+
+            </div>
     </div>      
 <!--biblioteca locomotive scroll-->
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.1/dist/locomotive-scroll.min.js"></script>
@@ -79,5 +101,6 @@
 <!--biblioteca animate on scroll-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./js/AOS.js"></script>
+
 </body>
 </html>

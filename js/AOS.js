@@ -1,6 +1,6 @@
 AOS.init({
   // duração da animação (em ms)
-  duration: 1000,
+  duration: 800,
 
   // atraso antes de iniciar a animação (em ms)
   delay: 0,
