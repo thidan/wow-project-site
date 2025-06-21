@@ -35,7 +35,7 @@ const cards = [
 cards.forEach(card => {
     newsCards += `
         <div class="news-card" data-scroll data-scroll-class="visivel" data-scroll-id="call1" data-scroll-offset="${card.offset}" data-scroll-repeat>
-            <img src="${card.img}" draggable="false" alt="${card.alt}">
+            <img src="${card.img}" draggable="false" alt="${card.alt}" loading="lazy">
             <h1>${card.h1}</h1>
             <p>${card.p}</p>
         </div>
