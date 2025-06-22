@@ -1,5 +1,5 @@
 
-let newsCards = ``;
+let newsCards = `<div class="title-wrapper" data-scroll data-scroll-class="visivel" data-scroll-offset="10%" data-scroll-repeat><h1 class="news-title">Últimas Notícias & Atualizações</h1></div>`;
 
 const cards = [
     { id:1,
