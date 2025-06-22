@@ -1,5 +1,5 @@
 
-let newsCards = `<h1 data-scroll data-scroll-speed="-1" id="target">Últimas Notícias & Atualizações</h1>`;
+let newsCards = ``;
 
 const cards = [
     { id:1,
@@ -34,9 +34,9 @@ const cards = [
 
 cards.forEach(card => {
     newsCards += `
-        <div class="news-card" data-scroll data-scroll-class="visivel" data-scroll-id="call1" data-scroll-offset="${card.offset}" data-scroll-repeat>
-            <img src="${card.img}" draggable="false" alt="${card.alt}" loading="lazy">
-            <h1>${card.h1}</h1>
+        <div class="news-card" data-scroll data-scroll-class="visivel" data-scroll-id="call1" data-scroll-offset="${card.offset}" data-scroll-repeat id="target">
+            <div><img src="${card.img}" draggable="false" alt="${card.alt}" loading="lazy">
+            <h1>${card.h1}</h1></div>
             <p>${card.p}</p>
         </div>
     `

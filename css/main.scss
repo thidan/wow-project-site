@@ -1,49 +1,47 @@
 .section-main {
-  position: relative; 
-  width:100%;
-  height:80vh;
-}
-
-
-.video-wrapper {
-    position:relative;
-    height:200vh;
+  position: relative; // Para permitir posicionamento absoluto dentro
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  min-height: 80vh; // Cresce conforme o conteúdo
+  overflow: hidden;  // Garante que o vídeo não vaze
 }
 
 .video-container {
-    position:absolute;
-    display:flex;
-    width:100%;
-    height:100vh;
-    left:50%;
-    transform:translateX(-50%);
-    top:-20vh;
-    z-index: -1; 
+  position: absolute;
+  top: -400px;
+  left: 0;
+  width: 100%;
+  height: 100%; // pega 100% da seção
+  z-index: -1;
 }
 
 .video-container video {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
+
 .wow-logo-container {
-    position:absolute;
-    top:15vh;
-    left:50%;
-    transform:translateX(-50%);
+    position:relative;
+    top:100px;
+    img {
+        filter:opacity(0.9);
+    }
 }
 
 .text-container {
-    position:absolute;
     display:flex;
     color:white;
+    align-items: center;
+    justify-content: center;
     font-family:'Penumbra';
     font-size:2rem;
     text-shadow: 4px 4px 20px black;
-    left:50%;
-    transform:translateX(-50%);
-    top:40vh;
     flex-direction:column;
     gap:20px;
 
@@ -57,11 +55,8 @@
 }
 
 .main-button {
+    margin-bottom:150px;
     display:flex;
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
-    top:60vh;
     border:2px solid rgb(255, 255, 255);
     padding: 30px 80px;
     font-family:'Penumbra';
@@ -77,4 +72,63 @@
         background-color:white;
         color:red;
     }
+}
+[data-scroll-container] {
+  will-change: auto;
+  transform: none !important; /* só se necessário para corrigir centralização */
+}
+
+
+@media(max-width:2000px){
+    .wow-logo-container {
+        img {
+            transform:scale(0.8);
+        }
+    }
+}
+.video-container {
+        height: 80%; // pega 100% da seção
+    }
+
+@media (max-width:1280px){
+    .wow-logo-container {
+        img {
+            transform: scale(0.6);
+        }
+    }
+    .text-container {
+        p {
+            
+            max-width:450px;
+        }
+        h1 {
+            font-size:2rem;
+        }
+    }
+    .main-button {
+        font-size:1.2rem;
+    }
+}
+
+@media(max-width:1080px) {
+    .video-container {
+        height: 60%; // pega 100% da seção
+    }
+}
+
+@media (max-width:800px){
+    .text-container {
+        p {
+            
+            max-width:400px;
+        }
+        h1 {
+            font-size:1.6rem;
+        }
+    }
+    .main-button {
+        font-size:1rem;
+    }
+
+
 }

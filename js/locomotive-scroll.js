@@ -9,3 +9,5 @@ const noticias = document.querySelector('#noticias');
         noticias.addEventListener('click', () => {
             scroll.scrollTo(target);
         });
+
+        
