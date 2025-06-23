@@ -54,10 +54,7 @@ html, body {
 }
 .logo-blizzard-container svg {
   filter: invert(1);
-  transition: transform 0.3s ease;
-}
-.logo-blizzard-container:hover svg {
-  transform: rotate(180deg);
+  transition: rotate 0.3s ease;
 }
 
 .logo-blizzard-container img {
@@ -95,10 +92,7 @@ html, body {
 }
 .menu-item svg {
   filter: invert(1);
-  transition: transform 0.3s ease;
-}
-.menu-item:hover svg {
-  transform: rotate(180deg);
+  transition: rotate 0.3s ease;
 }
 
 .novo {

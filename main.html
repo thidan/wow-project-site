@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.1/dist/locomotive-scroll.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
@@ -14,13 +15,15 @@
 <script src="js/news-generator.js" defer></script>
 <!--library: locomotive scroll-->
 <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.6.1/dist/locomotive-scroll.min.js"></script>
-<script src="./js/locomotive-scroll.js" defer></script>
+<script src="/js/locomotive-scroll.js" defer></script>
 <!--library: tilt js-->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js" defer></script>
-<script src="./js/tilt.js" defer></script>
+<script src="/js/tilt.js" defer></script>
 <!--library: animate on scroll-->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-<script src="./js/AOS.js" defer></script>
+<script src="/js/AOS.js" defer></script>
+
+<script src="js/hover-effects.js" defer></script>
 
 </head>
 <body>
@@ -30,7 +33,7 @@
             <header class="header-container" data-aos="fade-down">
                 <section class="logo-blizzard-container">
                     <img src="./imagens/blizzard-logo.png" draggable="false" alt="Blizzard logo">
-                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="seta-svg" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 9l6 6 6-6" stroke="black" stroke-width="2" fill="none" stroke-linecap="round"/>
                     </svg>
                 </section>
@@ -81,6 +84,51 @@
                 </section>
             </header>
         </div>
+        <div class="nav-bar">
+                            <div class="drop-down">
+                                <div class="drop-down-top">
+                                    <ul>
+                                        <li><a href="/"><img src="imagens/blizz-logo.png" alt="blizz logo">Acesse Blizzard.com</a></li>
+                                        <li><a href="/"><img src="imagens/4-quadrados.png" alt="quatro quadrados"> Todos os jogos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="drop-down-bottom">
+                                    <div class="centralizing"><p>VOCÊ TAMBÉM PODE GOSTAR</p></div>
+                                    <div class="menu-item">
+                                        <img src="imagens/wow-war-icon.png" alt="the war within">
+                                    
+                                        <div class="menu-item-text">
+                                            <strong>World of Warcraft: The War Within</strong>
+                                            <div><p>Expansão</p><h1 class="novo">NOVO</h1></div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <img src="imagens/wow-classic-icon.png" alt="classic wow">
+                                    
+                                        <div class="menu-item-text">
+                                            <strong>World of Warcraft: Mists of Pandaria Classic</strong>
+                                            <div><p>Expansão</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <img src="imagens/hearthstone-icon.png" alt="hearthstone icon">
+                                    
+                                        <div class="menu-item-text">
+                                            <strong>Hearthstone</strong>
+                                            <div><p>Jogo de Cards Estratégico</p></div>
+                                        </div>
+                                    </div>
+                                    <div class="menu-item">
+                                        <img src="imagens/warcraft-rumble-icon.png" alt="warcraft icon">
+                                    
+                                        <div class="menu-item-text">
+                                            <strong>Warcraft Rumble</strong>
+                                            <div><p>Ação e estratégia para dispositivos móveis</p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             <!--Main content-->
                 <main data-scroll-section>
                     <section class="section-main">
