@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="600" src="https://i.ibb.co/4ZvXC1tB/Captura-de-tela-2025-06-24-113708.png"  />
+  <img height="600" src="https://i.ibb.co/4ZvXC1tB/Captura-de-tela-2025-06-24-113708.png" />
 </div>
 
 ###
