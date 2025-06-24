@@ -11,6 +11,12 @@
 ###
 
 <div align="center">
+  <img src="readme_imgs/img3.png" />
+</div>
+
+###
+
+<div align="center">
   <img src="readme_imgs/img1.png" />
 </div>
 
