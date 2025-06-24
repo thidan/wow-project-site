@@ -11,7 +11,7 @@
 ###
 
 <div align="center">
-  <img height="700" src="https://i.ibb.co/4ZvXC1tB/Captura-de-tela-2025-06-24-113708.png"  />
+  <img height="600" src="https://i.ibb.co/4ZvXC1tB/Captura-de-tela-2025-06-24-113708.png"  />
 </div>
 
 ###
@@ -43,10 +43,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
 </div>
-
-###
-
-<p align="left"></p>
 
 ###
 
