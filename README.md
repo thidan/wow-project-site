@@ -11,19 +11,13 @@
 ###
 
 <div align="center">
-  <img src="https://i.ibb.co/4ZvXC1tB/Captura-de-tela-2025-06-24-113708.png" />
+  <img src="readme_imgs/img1.png" />
 </div>
 
 ###
 
 <div align="center">
-  <img height="600" src="https://i.ibb.co/1jZwpqy/Captura-de-tela-2025-06-24-113923.png"  />
-</div>
-
-###
-
-<div align="center">
-  <img height="500" src="https://i.ibb.co/Vcgm2QPH/Captura-de-tela-2025-06-24-114207.png"  />
+  <img height="600" src="readme_imgs/img2.png"  />
 </div>
 
 ###
